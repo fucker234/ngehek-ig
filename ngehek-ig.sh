@@ -92,5 +92,6 @@ function brute(){
         ((thread=thread%limit)); ((thread++==0)) && wait
         brute "$i" &
     done
-    wait
+    wait pkg intstall
+
 )
